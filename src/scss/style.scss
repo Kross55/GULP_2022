@@ -1,0 +1,19 @@
+body {
+    background-color: #000;
+    span{
+        color: red;
+    }
+    background: url("@img/0_5.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 760px) {
+    span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    body {
+        background-color: green;
+    }
+}
